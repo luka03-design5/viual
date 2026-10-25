@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifylyrics",
+  "version": "${version}",
+  "name": "Axiom Visuals",
+  "description": "Visuals client: Hitboxes, Block Overlay, Storage ESP, Tracers, Fullbright + Spotify Lyrics. Right Shift = GUI, K = Lyrics.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.axiom.client.AxiomClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
